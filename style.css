@@ -31,10 +31,13 @@ header .container {
   
 }
 
-header .foto {
+header .rounded mx-auto d-block {
  margin: 10px;
  border-radius: 10px;
-  }
+ display: flex;
+ justify-content: center;
+}
+
 
 header .titulo {
   font-style: italic;
@@ -45,11 +48,11 @@ header .titulo {
   }
 
 nav .container{
-  margin: 10px;
+  margin: 30px;
   padding: 15px;
   border-radius: 5px;
   font-weight: bold;
-  background: orangered;
+  background: rgb(63, 48, 43);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -58,10 +61,12 @@ nav .container{
 a:hover{
   background: rgb(243, 241, 240);
   border-radius: 5px;
+  padding: 3px;
 }
 
 section{
-  background: floralwhite;
+  background: rgb(239, 220, 180);
+  margin 10px;
 }
 
 
@@ -70,12 +75,14 @@ img {
   height: auto;
   align-self: center;
 }
+
  .container{
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
+  background-color:rgb(166, 166, 178);
   display: grid;
   grid-template-columns:200px 200px;
-  gap: 5px;
+  gap: 10px;
   grid-template-rows: auto;
   justify-content: center;
  
@@ -84,14 +91,14 @@ img {
 }
 
 footer {
- background: darkseagreen;
-  margin:10px;
+ background-color:chocolate;
+  margin: 30px;
   display: flex;
   justify-content: space-between;
 }
 
 footer .container{
-  background:darkseagreen ;
+  background-color:chocolate;
   margin: 5px;
   padding: 5px;
   display: flex;
@@ -101,6 +108,7 @@ footer .container{
 
 footer .social{
   margin: 10px;
+
 }
 
 footer .media{
