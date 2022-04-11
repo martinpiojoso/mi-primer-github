@@ -66,8 +66,9 @@ section{
 
 
 img {
-  width: 30%;
+  width: 30em;
   height: auto;
+  align-self: center;
 }
  .container{
   margin: 10px;
