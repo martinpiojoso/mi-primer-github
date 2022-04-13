@@ -7,7 +7,7 @@
 
 body {
   max-width: 1000px;
-  background:white;
+  
   font-family: "Roboto", sans-serif;
   }
 
@@ -18,13 +18,13 @@ a  { text-decoration: none;
 font-size:  20px; ;}
 
 
-.container{
-  max-width: 1000px;
-  margin: 0;
+
+
 }
 
 header .container {
-  padding: 10px;;
+  margin-top: 50px;
+  padding: 40px;
   background:#E6E6E6 ;
   display: flex;
   flex-direction: row;
@@ -64,30 +64,68 @@ a:hover{
   padding: 3px;
 }
 
+.container-contacto{
+  display:grid;
+  justify-content: center;
+}
+
 section{
-  background: rgb(239, 220, 180);
+  background: rgb(251, 247, 239);
   margin 10px;
 }
 
 
 img {
-  width: 30em;
+  width: 20em;
+  border-radius: 30px;
   height: auto;
   align-self: center;
 }
-
  .container{
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
-  background-color:rgb(166, 166, 178);
-  display: grid;
+  background-image: linear-gradient(135deg,#00B7D4,#505488,#2f3f80,#161569,#5a4894,#a950a1,#ff7cae);
+  background-size: 200% 200%;
+  
+  animation: movimiento 5s linear infinite alternate;
+  
+  display: grid; 
   grid-template-columns:200px 200px;
   gap: 10px;
   grid-template-rows: auto;
   justify-content: center;
- 
+
+}
+.letra-b{
+  color: white; 
+}
 
  
+
+
+main{
+  width: 90%;
+  height: auto;
+  color: white;
+  background-image: linear-gradient(135deg, #00B7D4, #505488, #2f3f80, #161569, #5a4894, #a950a1, #ff7cae);
+  background-size: 200% 200%;
+  animation: movimiento 5s linear infinite alternate;
+
+  display: grid;
+  justify-content: center;
+  
+}
+
+
+
+
+.suite{
+ display: flex;
+ margin: auto;
+}
+.descripcion{
+  display: flex;
+  margin: auto;
 }
 
 footer {
@@ -126,6 +164,19 @@ margin: 10px;
     footer .container{
       flex-direction:column;
     }
-
-}
+  }
     
+@keyframes movimiento {
+   0% { 
+    background-position: 0% 50%;
+    ;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
