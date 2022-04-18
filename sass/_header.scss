@@ -1,0 +1,19 @@
+header {
+    .container {
+    margin-top: 50px;
+    padding: 40px;
+    background: #E6E6E6;
+    display: flex;
+    flex-direction: row;
+}
+    .rounded mx-auto d-block {
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+}
+    .titulo {
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    }
+}

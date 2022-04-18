@@ -1,0 +1,28 @@
+  footer  
+    {
+      background-color: chocolate;
+      margin: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container {
+      background-color: chocolate;
+      margin: 5px;
+      padding: 5px;
+      flex-direction: row;
+      justify-content: space-evenly;
+}
+
+    .social{
+             margin: 10px;
+    }
+    .media{
+            margin: 10px;
+    }
+    .mail{
+            margin: 10px;
+    }
+    .social {
+            margin: 10px;
+    }
