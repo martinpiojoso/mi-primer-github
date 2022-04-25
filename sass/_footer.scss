@@ -1,6 +1,6 @@
   footer  
     {
-      background-color: chocolate;
+      background-color: $primary;
       margin: 30px;
       display: flex;
       justify-content: space-between;
@@ -15,7 +15,7 @@
 }
 
     .social{
-             margin: 10px;
+        $marginFooter: 10px;
     }
     .media{
             margin: 10px;

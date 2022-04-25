@@ -1,13 +1,14 @@
-@import "header";
-@import "section";
+@import 'header';
 
-@import "footer";
-// @import "variables";
+ @import 'section';
+
+// @import 'footer';
+// @import 'variables';
 
 
 
 body {
-    margin: 30px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 1000px;

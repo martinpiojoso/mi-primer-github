@@ -29,52 +29,8 @@ header .titulo {
           align-items: center;
 }
 
-.sectioncontainer {
-  margin-left: 20px;
-}
-
-footer {
-  background-color: chocolate;
-  margin: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.container {
-  background-color: chocolate;
-  margin: 50px;
-  padding: 5px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.social {
-  margin: 10px;
-}
-
-.media {
-  margin: 10px;
-}
-
-.mail {
-  margin: 10px;
-}
-
-.social {
-  margin: 10px;
-}
-
 body {
-  margin: 30px;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
